@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_GOODYHUT_SAILOR_ONE_CIVIC_DESCRIPTION">
+			<Text>One Free Civic.</Text>
+		</Row>
+	</BaseGameText>
+</GameData>

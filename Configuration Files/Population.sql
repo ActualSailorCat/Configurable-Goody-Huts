@@ -1,0 +1,1 @@
+UPDATE GoodyHutSubTypes SET Weight = 0 WHERE SubTypeGoodyHut IN ('GOODYHUT_ADD_POP', 'GOODYHUT_ADD_POP_2');

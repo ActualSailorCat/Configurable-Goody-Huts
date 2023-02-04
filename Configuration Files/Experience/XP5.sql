@@ -1,0 +1,1 @@
+UPDATE GlobalParameters SET Value = Value * 5 WHERE Name = 'EXPERIENCE_ACTIVATE_GOODY_HUT';

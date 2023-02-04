@@ -1,0 +1,1 @@
+UPDATE GoodyHutSubTypes SET Weight = 20 WHERE SubTypeGoodyHut = 'GOODYHUT_GRANT_SETTLER';

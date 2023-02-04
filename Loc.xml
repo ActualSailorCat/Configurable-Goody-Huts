@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<!--Misc Settings-->
+		<Row Tag="LOC_SAILORGC_TURN0_NAME">
+			<Text>Unlock All Goody Rewards Immediately</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_TURN0_DESCRIPTION">
+			<Text>All Goody Hut rewards will be available at the beginning of the game.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_NORMIES_NAME">
+			<Text>Normalized Goody Reward Chances</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_NORMIES_DESCRIPTION">
+			<Text>All Goody Hut rewards will have the same chance to roll.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_REVEALED_NAME">
+			<Text>Reveal All Goody Huts</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_REVEALED_DESCRIPTION">
+			<Text>Reveals the location of all Goody Huts at the beginning of the game.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_TRADECAP_NAME">
+			<Text>Goody Hut Traders Add Capacity</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_TRADECAP_DESCRIPTION">
+			<Text>Receiving a Trader as a Goody Hut reward will also grant +1 Trade Capacity.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_MOMENT_NAME">
+			<Text>Disable Goody Hut Moments</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_MOMENT_DESCRIPTION">
+			<Text>Disables the Moment Timeline that pops up when capturing a Goody Hut.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_NOTIFICATIONS_NAME">
+			<Text>Goody Hut Notifications</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_NOTIFICATIONS_DESCRIPTION">
+			<Text>Receive a notification upon receiving a Goody Hut reward.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_SWITCH_NAME">
+			<Text>[ SELECT ALL / NONE ]</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_SWITCH_DESCRIPTION">
+			<Text>Toggles selection of all or no goody types.</Text>
+		</Row>
+
+		<!--Frequency Drop Down-->
+		<Row Tag="LOC_SAILORGC_FREQUENCY_NAME">
+			<Text>Goody Hut Frequency</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_FREQUENCY_DESCRIPTION">
+			<Text>Changes the number of Goody Huts on the map.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_FREQUENCY_025_NAME">
+			<Text>0.25x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_FREQUENCY_025_DESCRIPTION">
+			<Text>Frequency of Goody Huts reduced to 25%.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_FREQUENCY_050_NAME">
+			<Text>0.5x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_FREQUENCY_050_DESCRIPTION">
+			<Text>Frequency of Goody Huts reduced to 50%.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_FREQUENCY_075_NAME">
+			<Text>0.75x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_FREQUENCY_075_DESCRIPTION">
+			<Text>Frequency of Goody Huts reduced to 75%.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_FREQUENCY_100_NAME">
+			<Text>1x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_FREQUENCY_100_DESCRIPTION">
+			<Text>No change in the frequency of Goody Huts.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_FREQUENCY_125_NAME">
+			<Text>1.25x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_FREQUENCY_125_DESCRIPTION">
+			<Text>Frequency of Goody Huts increased to 125%.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_FREQUENCY_150_NAME">
+			<Text>1.5x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_FREQUENCY_150_DESCRIPTION">
+			<Text>Frequency of Goody Huts increased to 150%.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_FREQUENCY_175_NAME">
+			<Text>1.75x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_FREQUENCY_175_DESCRIPTION">
+			<Text>Frequency of Goody Huts increased to 175%.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_FREQUENCY_200_NAME">
+			<Text>2x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_FREQUENCY_200_DESCRIPTION">
+			<Text>Frequency of Goody Huts increased to 200%.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_FREQUENCY_300_NAME">
+			<Text>3x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_FREQUENCY_300_DESCRIPTION">
+			<Text>Frequency of Goody Huts increased to 300%.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_FREQUENCY_400_NAME">
+			<Text>4x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_FREQUENCY_400_DESCRIPTION">
+			<Text>Frequency of Goody Huts increased to 400%.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_FREQUENCY_500_NAME">
+			<Text>5x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_FREQUENCY_500_DESCRIPTION">
+			<Text>Frequency of Goody Huts increased to 500%.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_FREQUENCY_1000_NAME">
+			<Text>10x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_FREQUENCY_1000_DESCRIPTION">
+			<Text>Frequency of Goody Huts increased to 1000%.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_FREQUENCY_2000_NAME">
+			<Text>20x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_FREQUENCY_2000_DESCRIPTION">
+			<Text>Frequency of Goody Huts increased to 2000%.</Text>
+		</Row>
+
+		<!--XP Drop Down-->
+		<Row Tag="LOC_SAILORGC_XP_NAME">
+			<Text>Goody Hut Recon XP</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_XP_DESCRIPTION">
+			<Text>Changes the experience that Recon units gain from Goody Huts.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_XP_0_NAME">
+			<Text>0x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_XP_0_DESCRIPTION">
+			<Text>Goody Hut Recon experience reduced to 0%.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_XP_1_NAME">
+			<Text>1x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_XP_1_DESCRIPTION">
+			<Text>No change in Goody Hut Recon experience.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_XP_2_NAME">
+			<Text>2x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_XP_2_DESCRIPTION">
+			<Text>Goody Hut Recon experience increased to 200%.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_XP_5_NAME">
+			<Text>5x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_XP_5_DESCRIPTION">
+			<Text>Goody Hut Recon experience increased to 500%.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_XP_10_NAME">
+			<Text>10x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_XP_10_DESCRIPTION">
+			<Text>Goody Hut Recon experience increased to 1000%.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_XP_N_NAME">
+			<Text>Promotion</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_XP_N_DESCRIPTION">
+			<Text>Goody Huts result in a guaranteed promotion for Recon units.</Text>
+		</Row>
+
+		<!--Yields Drop Down-->
+		<Row Tag="LOC_SAILORGC_YIELDS_NAME">
+			<Text>Goody Hut Yield Multiplier</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_YIELDS_DESCRIPTION">
+			<Text>Changes the amount of Gold and Faith gained from Goody Hut rewards.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_YIELDS_1_NAME">
+			<Text>1x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_YIELDS_1_DESCRIPTION">
+			<Text>No change in Goody Hut Gold and Faith rewards.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_YIELDS_2_NAME">
+			<Text>2x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_YIELDS_2_DESCRIPTION">
+			<Text>Goody Hut Gold and Faith rewards increased to 200%.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_YIELDS_5_NAME">
+			<Text>5x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_YIELDS_5_DESCRIPTION">
+			<Text>Goody Hut Gold and Faith rewards increased to 500%.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_YIELDS_10_NAME">
+			<Text>10x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_YIELDS_10_DESCRIPTION">
+			<Text>Goody Hut Gold and Faith rewards increased to 1000%.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_YIELDS_20_NAME">
+			<Text>20x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_YIELDS_20_DESCRIPTION">
+			<Text>Goody Hut Gold and Faith rewards increased to 2000%.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_YIELDS_100_NAME">
+			<Text>100x</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_YIELDS_100_DESCRIPTION">
+			<Text>Goody Hut Gold and Faith rewards increased to 10000%.</Text>
+		</Row>
+				
+		<!--Default-->		
+		<Row Tag="LOC_SAILORGC_BUILDER_NAME">
+			<Text>Goody Hut Builders</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_BUILDER_DESCRIPTION">
+			<Text>Enables the Builder unit as a Goody Hut reward.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_EUREKA_NAME">
+			<Text>Goody Hut Eurekas</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_EUREKA_DESCRIPTION">
+			<Text>Enables random Eurekas as a Goody Hut reward.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_EXPERIENCE_NAME">
+			<Text>Goody Hut Experience</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_EXPERIENCE_DESCRIPTION">
+			<Text>Enables unit experience as a Goody Hut reward.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_FAITH_NAME">
+			<Text>Goody Hut Faith</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_FAITH_DESCRIPTION">
+			<Text>Enables a sum of Faith as a Goody Hut reward.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_GOLD_NAME">
+			<Text>Goody Hut Gold</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_GOLD_DESCRIPTION">
+			<Text>Enables a sum of Gold as a Goody Hut reward.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_HEAL_NAME">
+			<Text>Goody Hut Healing</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_HEAL_DESCRIPTION">
+			<Text>Enables unit healing as a Goody Hut reward.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_INSPIRATIONS_NAME">
+			<Text>Goody Hut Inspirations</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_INSPIRATIONS_DESCRIPTION">
+			<Text>Enables random Inspirations as a Goody Hut reward.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_POPULATION_NAME">
+			<Text>Goody Hut Population</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_POPULATION_DESCRIPTION">
+			<Text>Enables bonus population as a Goody Hut reward.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_RELIC_NAME">
+			<Text>Goody Hut Relics</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_RELIC_DESCRIPTION">
+			<Text>Enables free Relics as a Goody Hut reward.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_SCOUT_NAME">
+			<Text>Goody Hut Scouts</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_SCOUT_DESCRIPTION">
+			<Text>Enables the Scout unit as a Goody Hut reward.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_SETTLER_NAME">
+			<Text>Goody Hut Settlers</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_SETTLER_DESCRIPTION">
+			<Text>Enables the Settler unit as a Goody Hut reward.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_TECH_NAME">
+			<Text>Goody Hut Technologies</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_TECH_DESCRIPTION">
+			<Text>Enables random Technologies as a Goody Hut reward.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_TRADER_NAME">
+			<Text>Goody Hut Traders</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_TRADER_DESCRIPTION">
+			<Text>Enables the Trader unit as a Goody Hut reward. Don't enable this by itself. (Requires the Foreign Trade civic.)</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_UPGRADE_NAME">
+			<Text>Goody Hut Upgrades</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_UPGRADE_DESCRIPTION">
+			<Text>Enables unit upgrading as a Goody Hut reward.</Text>
+		</Row>
+
+		<!--XP2-->
+		<Row Tag="LOC_SAILORGC_GOVERNOR_NAME">
+			<Text>Goody Hut Governor Titles</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_GOVERNOR_DESCRIPTION">
+			<Text>Enables Governor Titles as a Goody Hut reward.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_ENVOY_NAME">
+			<Text>Goody Hut Envoys</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_ENVOY_DESCRIPTION">
+			<Text>Enables Envoys as a Goody Hut reward.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_FAVOR_NAME">
+			<Text>Goody Hut Diplomatic Favor</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_FAVOR_DESCRIPTION">
+			<Text>Enables a sum of Diplomatic Favor as a Goody Hut reward.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_STRATEGIC_NAME">
+			<Text>Goody Hut Strategic Resources</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_STRATEGIC_DESCRIPTION">
+			<Text>Enables Strategic Resources as a Goody Hut reward.</Text>
+		</Row>
+		
+		<!--Custom-->
+		<Row Tag="LOC_SAILORGC_CIVIC_NAME">
+			<Text>Goody Hut Civics</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_CIVIC_DESCRIPTION">
+			<Text>Enables random Civics as a Goody Hut reward.</Text>
+		</Row>
+
+		<!--Wondrous-->
+		<Row Tag="LOC_SAILORGC_CITYSTATE_NAME">
+			<Text>Goody Hut City-State Meetings</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_CITYSTATE_DESCRIPTION">
+			<Text>Enables meeting a random city-state as a Goody Hut reward.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_FORMATION_NAME">
+			<Text>Goody Hut Formations</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_FORMATION_DESCRIPTION">
+			<Text>Enables upgrading to a Corps or Army as a Goody Hut reward.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_POLICY_NAME">
+			<Text>Goody Hut Policies</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_POLICY_DESCRIPTION">
+			<Text>Enables unlocking a random Policy as a Goody Hut reward.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_PRODUCTION_NAME">
+			<Text>Goody Hut Production</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_PRODUCTION_DESCRIPTION">
+			<Text>Enables a burst of production as a Goody Hut reward.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_RESOURCE_NAME">
+			<Text>Goody Hut Resources</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_RESOURCE_DESCRIPTION">
+			<Text>Enables spawning a random resource in your territory as a Goody Hut reward.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_SIGHT_NAME">
+			<Text>Goody Hut Wilderness Training</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_SIGHT_DESCRIPTION">
+			<Text>Enables a sight upgrade as a Goody Hut reward.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_SPY_NAME">
+			<Text>Goody Hut Spy</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_SPY_DESCRIPTION">
+			<Text>Enables the Spy unit and Spy capacity as a Goody Hut reward.</Text>
+		</Row>
+
+		<Row Tag="LOC_SAILORGC_TELEPORT_NAME">
+			<Text>Goody Hut Unit Teleport</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_TELEPORT_DESCRIPTION">
+			<Text>Enables unit teleportation a Goody Hut reward.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_UI_NAME">
+			<Text>Goody Hut Improvements</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_UI_DESCRIPTION">
+			<Text>Enables spawning a random improvement in your territory as a Goody Hut reward.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_UU_NAME">
+			<Text>Goody Hut Unique Units</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_UU_DESCRIPTION">
+			<Text>Enables unique units as a Goody Hut reward.</Text>
+		</Row>
+		
+		<Row Tag="LOC_SAILORGC_WONDER_NAME">
+			<Text>Goody Hut Natural Wonders</Text>
+		</Row>
+		<Row Tag="LOC_SAILORGC_WONDER_DESCRIPTION">
+			<Text>Enables discovering an undiscovered natural wonder as a Goody Hut reward.</Text>
+		</Row>
+		
+	</BaseGameText>
+</GameData>

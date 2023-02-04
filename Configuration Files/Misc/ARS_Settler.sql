@@ -1,0 +1,1 @@
+UPDATE GoodyHutSubTypes SET Weight = 0 WHERE SubTypeGoodyHut LIKE '%SETTLER%';

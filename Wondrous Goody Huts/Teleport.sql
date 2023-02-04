@@ -1,0 +1,1 @@
+UPDATE GoodyHutSubTypes SET Weight = 100 WHERE SubTypeGoodyHut = 'GOODYHUT_SAILOR_TELEPORT';
